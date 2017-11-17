@@ -1,3 +1,5 @@
+// 状態をつくった
+
 class Promise {
   constructor(fn) {
     this.state = 'pending'

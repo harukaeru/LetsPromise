@@ -1,3 +1,5 @@
+// チェーンを可能に
+
 class Promise {
   constructor(fn) {
     this.state = 'pending'

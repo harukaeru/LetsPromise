@@ -1,3 +1,5 @@
+// リターンされる値がPromiseでもおｋに
+
 class Promise {
   constructor(fn) {
     this.state = 'pending'

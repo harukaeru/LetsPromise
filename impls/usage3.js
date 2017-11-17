@@ -1,0 +1,6 @@
+Promise.resolve(1)
+.then(v => v * 2)
+.then(v => { throw 'err' })
+.then(v => v * 4)
+.then(v => console.log(v))
+.catch(e => console.log(e))

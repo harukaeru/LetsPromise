@@ -1,3 +1,5 @@
+// 非同期でもおｋに
+
 class Promise {
   constructor(fn) {
     this.state = 'pending'

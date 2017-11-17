@@ -1,3 +1,5 @@
+// 状態は内部にない
+
 class Promise {
   constructor(fn) {
     this.currentValue = null

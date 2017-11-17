@@ -1,3 +1,5 @@
+// rejectすると中断する
+
 class Promise {
   constructor(fn) {
     this.state = 'pending'
