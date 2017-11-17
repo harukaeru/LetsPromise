@@ -32,3 +32,10 @@ const successCallback3 = (result) => {
 const failureCallback = (e) => {
   console.log('Fail:', e)
 }
+
+doSomething(
+  (result) => successCallback(
+    result, (result) => successCallback2(result, successCallback3, failureCallback), failureCallback
+  ),
+  failureCallback
+)
