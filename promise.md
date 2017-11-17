@@ -46,6 +46,10 @@ new Promise((resolve, reject) => {
 
 ---
 
+## 質問タイム
+
+---
+
 ### ...でもちょっと待って
 
 ---
@@ -66,6 +70,16 @@ console.log(value)
 ---
 
 ## もちろん詐欺ではありません！
+
+---
+
+## Promiseの使用状況
+
+.left[
+あのGoogleやFacebookが使っている有名な`fetch`にもPromiseは使われていて
+
+非同期処理はPromiseを使えばまるで同期処理のように書くことができるんです！
+]
 
 ---
 
@@ -120,7 +134,7 @@ console.log(value)
 
 ---
 
-### ざっくりとしたプロミスの使い方解説
+### ざっくりとしたプロミスの使い方
 
 .left[
 ```javascript
@@ -317,4 +331,6 @@ console.log('お母さんは外出する')
 
 ---
 
-###
+### Demo
+
+---
